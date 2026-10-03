@@ -2,14 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Modern History Quiz Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin-top: 50px;
+        }
+        .quiz-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .quiz-btn {
+            display: inline-block;
+            width: 250px;
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .quiz-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Modern history Quizzes</h1>
+
+    <h1>📚 Select Your Quiz</h1>
     
-    <!-- लिंक्स यहाँ हैं -->
-    <a href="quiz_1.html">Start Quiz 1</a> <br><br>
-    <a href="quiz_2.html">Start Quiz 2</a>
+    <div class="quiz-menu">
+        <!-- अपने सभी क्विज़ के लिंक यहाँ डालें -->
+        <a href="quiz_1.html" class="quiz-btn">Start Quiz 1</a>
+        <a href="quiz_2.html" class="quiz-btn">Start Quiz 2</a>
+        
+        <!-- नया क्विज़ जोड़ने के लिए इसी लाइन को कॉपी करके नीचे पेस्ट करें और नाम बदल दें -->
+        <!-- <a href="quiz_3.html" class="quiz-btn">Start Quiz 3</a> -->
+    </div>
 
 </body>
 </html>
